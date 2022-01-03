@@ -6,6 +6,15 @@ function crearGato(nombre, edad) {
   // Agrega un método (funcion) llamado "meow" que devuelva el string "Meow!"
   // Devuelve el objeto
   // Tu código:
+
+  this.nombre=nombre,
+  this.edad=edad,
+  meow; function meow(){
+    return "Meow!";
+  }
+
+  return gato;
+
 }
 
 
@@ -14,6 +23,11 @@ function agregarPropiedad(objeto, property) {
   // Devuelve el objeto
   // NOTA: El nombre de la propiedad no es "propiedad", el nombre es el valor del argumento llamado "property" (una cadena/string)
   // Tu código:
+
+
+
+
+
 }
 
 function invocarMetodo(objeto, metodo) {
@@ -70,6 +84,7 @@ function actualizarPassword(usuario, nuevaPassword) {
   // Reemplaza la contraseña existente en el objeto "usuario" con el valor de "nuevagPassword"
   // Devuelve el objeto
   // Tu código:
+  
 }
 
 function agregarAmigo(usuario, nuevoAmigo) {

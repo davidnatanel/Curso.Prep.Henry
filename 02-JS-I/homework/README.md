@@ -4,11 +4,11 @@
 ---
 1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
 
-	* Variables
-	* Strings
-	* Funciones (argumentos, `return`)
-	* Declaraciones `if`
-	* Valores booleanos (`true`, `false`)
+	* Variables "Las variables son secciones revservada en memoria para almacenar datos"
+	* Strings   "Es una cadena de texto o caracter"
+	* Funciones (argumentos, `return`) (una funcion es como una caja que tiene un valor de entrada y salida los argumentos son los valores de entrada y return los de salida)
+	* Declaraciones `if`(Un if en programación se utiliza para evaluar una expresión condicional: si se cumple la condición (es verdadera), ejecutará un bloque de código. Si es falsa, es posible ejecutar otras sentencia)
+	* Valores booleanos (`true`, `false`)(El tipo booleano sólo puede tener dos valores: True (verdadero) y False (falso). Estos valores son especialmente importantes para las expresiones condicionales y los bucles, como verá más adelante.)
 
 
 2. Instalar Node y NPM. NPM se incluye con Node. https://nodejs.org/en/download/
