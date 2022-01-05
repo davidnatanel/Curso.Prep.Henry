@@ -201,6 +201,7 @@ function obtenerSaludo(nombre) {
   // Tu código:
 
   return "Hola " + nombre + "!";
+  /*return `Hola ${nombre}`;*/
   
 }
 
@@ -214,7 +215,7 @@ function obtenerAreaRectangulo(alto, ancho) {
 function retornarPerimetro(lado){
   //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
   //Escribe tu código aquí
-  return lado + lado + lado + lado;
+  return lado * 4 ;
 }
 
 
@@ -232,8 +233,9 @@ function deEuroAdolar(euro){
   //Escribe tu código aquí
   
    dolar=euro * 1.20
-
-  return dolar
+    
+  return dolar;
+  //return euro*1.2;
   
 }
 
