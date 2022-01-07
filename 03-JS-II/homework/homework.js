@@ -6,8 +6,8 @@ function obtenerMayor(x, y) {
   // Si son iguales, devuelve cualquiera de los dos
   // Tu código:
   if (x > y){return x }
-  else if (y >x ){return y}
-  else if (x ===y){return x ,y }
+  else if (y > x ){return y}
+  else if (x === y){return x ,y }
 
  
  
@@ -134,7 +134,13 @@ function esEntero(numero) {
   if (Number.isInteger(numero) === true){return true}
   if (Number.isInteger(numero) === false){return false }
 
-
+/*
+if (numero === Math.floor(nuumero)){
+  return true;
+}else{
+  return false;
+}
+*/
 
 }
 
@@ -167,11 +173,7 @@ function operadoresLogicos(num1, num2, num3) {
   else if(num1==0 || num2==0 || num3==0){return "Error"}
   
 
-
-
   else if(num1>num2 && num1 >num3 && true ){return "Número 1 es mayor y positivo"}
-
-
 
   else if(num3 > num1 && num3 > num2){num3++; return num3}
 
